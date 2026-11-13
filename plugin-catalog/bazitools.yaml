@@ -1,0 +1,20 @@
+name: bazitools
+description: "Authentic Chinese Astrology, Four Pillars of Destiny (BaZi) and Classical Name Generator Engine"
+version: "1.0.2"
+author: "AbigailDavised"
+homepage: "https://bazitools.com"
+repository: "https://github.com/AbigailDavised/bazitools-mcp"
+mcp:
+  type: "streamable-http"
+  url: "https://bazitools.com/api/mcp"
+tools:
+  - calculate_bazi_four_pillars
+  - generate_poetic_chinese_names
+  - lookup_ten_heavenly_stems_guide
+  - lookup_chinese_surname_origins
+tags:
+  - "astrology"
+  - "bazi"
+  - "chinese-metaphysics"
+  - "naming"
+  - "culture"
